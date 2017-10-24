@@ -1,0 +1,37 @@
+#caroussel{
+    position:relative;
+    height:425px;
+    width:640px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#caroussel ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+}
+
+ul{
+    display: block;
+    width: 640px;
+}
+
+#prev, #next{
+    position: relative;
+    z-index: 2;
+    top: 180px;
+}
+
+#prev{
+    right: 60px;
+}
+#next{
+    left: 60px;
+}
+
+.image{
+    z-index:-1;
+}
